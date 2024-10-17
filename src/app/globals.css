@@ -1,0 +1,64 @@
+/* Styling for review items */
+.review-item, .top-review-item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .review-item i, .top-review-item i {
+    font-size: 1.5rem;
+  }
+  
+  .text-warning {
+    color: #ffc107; /* Bootstrap yellow for stars */
+  }
+  
+  .review-item p, .top-review-item p {
+    font-size: 0.9rem;
+  }
+  
+  a.text-dark {
+    text-decoration: underline;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .badge {
+    font-size: 0.75rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.85rem;
+  }
+  
+  .text-dark {
+    font-weight: bold;
+  }
+  
+  .text-muted small {
+    font-size: 0.85rem;
+  }
+  /* components/ProductCard.module.css */
+.productCard {
+    margin-bottom: 30px;
+  }
+  .productCard .card {
+    position: relative;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .productCard .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
